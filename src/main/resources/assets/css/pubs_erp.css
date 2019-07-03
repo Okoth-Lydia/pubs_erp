@@ -1,0 +1,146 @@
+/*
+    Created on : June 30, 2019
+    Author     : BENJAH
+
+    Main stylesheet for this project
+*/
+
+
+/* BootstrapFX Reset **************************************************************************************************/
+.text-inverse {
+    -fx-text-fill: white;
+}
+
+.button, .toggle-button, .choice-box, .text-field {
+    -fx-pref-height: 30;
+}
+
+
+/* Pubs ERP Styles General ********************************************************************************************/
+#main_pane {}
+
+#header {}
+
+#title {
+    -fx-font-size: 40;
+}
+
+#btn_clz {
+    -fx-graphic:  url('../img/icons8_close_32px.png');
+}
+
+#btn_min {
+    -fx-graphic:  url('../img/icons8_minimize_32px.png');
+}
+
+#btn_out {
+    -fx-graphic:  url('../img/icons8_logout_rounded_32px.png');
+}
+
+#btn_clz, #btn_min, #btn_out {
+    -fx-pref-height: 3.333333em;
+    -fx-pref-width: 3.333333em;
+}
+
+#btn_min:hover, #btn_out:hover {
+    -fx-background-color: rgba(255,255,255,.1);
+}
+
+#btn_clz:hover {
+    -fx-background-color: -d;
+}
+
+#admin_pane{}
+
+#cashier_pane{}
+
+.jfx-tab-pane .tab{
+    -fx-pref-width: 11.25em;
+}
+
+.jfx-tab-pane .tab-header-background{
+    -fx-background-color: -t;
+}
+
+.jfx-tab-pane .headers-region .tab-selected-line {
+    -fx-background-color: #FFFFFF;
+}
+
+.jfx-tab-pane .headers-region > .tab > .jfx-rippler{
+    -jfx-rippler-fill: #FFFFFF;
+}
+
+.jfx-tab-pane .headers-region .tab .tab-container .tab-label {
+    -fx-font-family: 'Segoe UI Semibold';
+    -fx-text-fill: rgba(255,255,255,.75);
+}
+
+.jfx-tab-pane .headers-region .tab:selected .tab-container .tab-label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.ctrl{
+    -fx-alignment: BASELINE_LEFT;
+    -fx-border-color: transparent;
+    -fx-border-width: 0em 0em 0em 0.25em;
+    -fx-pref-width: 14.166667em;
+    -fx-pref-height: 2.5em;
+}
+
+.ctrl-selected{
+    -fx-border-color: transparent transparent transparent -t;
+}
+
+.ctrl-selected, .ctrl:hover{
+    -fx-background-color: derive(-t, 150%);
+}
+
+.ctrl:pressed{
+    -fx-effect: null;
+}
+
+#footer {}
+
+#main_pane, #admin_pane, #cashier_pane,
+#admin_emply_ovv_pane, #admin_emply_vew_pane, #admin_emply_add_pane, #admin_emply_mng_pane{
+    -fx-background-color: white;
+}
+
+#header, #footer {
+    -fx-background-color: -t;
+}
+
+
+/* Admin Pane *********************************************************************************************************/
+
+/* admin_dashb *************************/
+
+/* admin_prdct *************************/
+
+/* admin_emply *************************/
+#admin_emply_ovv {
+    -fx-graphic:  url('../img/icons8_overview_pages_16px.png');
+}
+
+#admin_emply_vew {
+    -fx-graphic:  url('../img/icons8_view_details_16px.png');
+}
+
+#admin_emply_add {
+    -fx-graphic:  url('../img/icons8_add_user_16px.png');
+}
+
+#admin_emply_mng {
+    -fx-graphic:  url('../img/icons8_admin_settings_16px.png');
+}
+
+#user_image{
+    -fx-background-image: url('../img/icons8_user_120px.png');
+}
+
+/* admin_reprt *************************/
+
+/* admin_setng *************************/
+
+
+/* Cashier Pane *******************************************************************************************************/

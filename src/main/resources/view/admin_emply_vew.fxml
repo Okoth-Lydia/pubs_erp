@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="388.0" prefWidth="703.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <StackPane layoutX="93.0" layoutY="84.0" prefHeight="388.0" prefWidth="703.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label text="Employee View Pane">
+         <styleClass>
+            <String fx:value="h1" />
+            <String fx:value="text-info" />
+         </styleClass>
+      </Label>
+      <Label layoutX="341.0" layoutY="188.0" text="Feature Comming Soon">
+            <StackPane.margin>
+               <Insets top="100.0" />
+            </StackPane.margin>
+         </Label>
+   </StackPane>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+   <stylesheets>
+      <URL value="@../assets/css/bootstrapfx.css" />
+      <URL value="@../assets/css/pubs_erp.css" />
+   </stylesheets>
+</AnchorPane>
